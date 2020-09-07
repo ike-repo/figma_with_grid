@@ -1,0 +1,36 @@
+nav {
+    margin: 3%;
+    display: float;
+    overflow: auto;
+    div>#logo {
+        grid-column: 1/2;
+        width: 20%;
+        position: absolute;
+        top: 3%;
+        left: 20%;
+    }
+    .headers-right {
+        grid-column: 4/5;
+        position: absolute;
+        top: 5%;
+        right: 20%;
+    }
+    .headers-right>.header-links>li {
+        display: inline;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 16px;
+        &.header-links__login {
+            color: $whiteFont;
+        }
+        &.header-links__register {
+            color: red;
+        }
+    }
+    // .line {
+    //     background-color: yellow;
+    //     position: absolute;
+    //     float: left;
+    // }
+}

@@ -1,0 +1,35 @@
+main {
+    h1 {
+        position: absolute;
+        grid-column: 2/4;
+        grid-row: 2/3;
+        // width: 624px;
+        // height: 59px;
+        font-family: Modak;
+        font-size: 65px;
+        font-weight: lighter;
+        // line-height: 81px;
+        text-align: center;
+        // display: flex;
+        justify-content: space-around;
+        color: #FFFFFF;
+        left: 10%;
+        top: -30%;
+    }
+    .post-box {
+        padding: 20px 30px 20px 30px;
+        background-color: white;
+        width: 20%;
+        position: absolute;
+        left: 60%;
+        top: 45%;
+        font-family: Roboto;
+        font-style: Regular;
+        font-size: 24px;
+        text-align: left;
+        border-radius: 10px;
+    }
+    .club-features {
+        list-style-type: circle;
+    }
+}

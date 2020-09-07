@@ -1,0 +1,81 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("/Users/ike/Desktop/CW/Sites/figma_landing_page/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png"), rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+body > hr {
+  border: 1px solid #E2E2E2;
+}
+
+main h1 {
+  position: absolute;
+  grid-column: 2/4;
+  grid-row: 2/3;
+  font-family: Modak;
+  font-size: 65px;
+  font-weight: lighter;
+  text-align: center;
+  justify-content: space-around;
+  color: #FFFFFF;
+  left: 10%;
+  top: -30%;
+}
+main .post-box {
+  padding: 20px 30px 20px 30px;
+  background-color: white;
+  width: 20%;
+  position: absolute;
+  left: 60%;
+  top: 45%;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 24px;
+  text-align: left;
+  border-radius: 10px;
+}
+main .club-features {
+  list-style-type: circle;
+}
+
+nav {
+  margin: 3%;
+  display: float;
+  overflow: auto;
+}
+nav div > #logo {
+  grid-column: 1/2;
+  width: 20%;
+  position: absolute;
+  top: 3%;
+  left: 20%;
+}
+nav .headers-right {
+  grid-column: 4/5;
+  position: absolute;
+  top: 5%;
+  right: 20%;
+}
+nav .headers-right > .header-links > li {
+  display: inline;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+}
+nav .headers-right > .header-links > li.header-links__login {
+  color: rgba(255, 250, 250, 0.8);
+}
+nav .headers-right > .header-links > li.header-links__register {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
